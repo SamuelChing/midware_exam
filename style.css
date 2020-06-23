@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    
+}
+.error_div{
+    display: none;
+}
+.form_container{
+    font-family: sans-serif;
+    width: 100%;
+    margin:1%;
+    text-align: center;
+    display: inline-block;
+}
+.progressbar_div{
+    text-align: center;
+    display: inline-block;
+    width: 90%;
+    margin: 1%;
+    border: 1px solid black;
+}
+.btn{
+    font-family: sans-serif;
+
+}
+progress{
+    width: 70%;
+    height: 35px;
+}
+.form1 input{
+   font-family: sans-serif;
+
+}
+.progressBar{
+    width: 100%;
+    margin: auto;
+    background-color:white;
+    height: 45px;
+    
+}
+.progressBarFill{
+    width: 0%;
+    transition: all .5s linear;
+    background-color:#15E111;
+    height: 45px;
+    vertical-align: middle
+    
+}

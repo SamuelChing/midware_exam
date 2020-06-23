@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="functions.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Control de Tareas</title>
+</head>
+<body scroll="no">
+	<div class="container">
+        <div class="form_container">
+            <h1>Progress bar excercise</h1>
+            <p>Please fill the next 2 entries to see the progress</p>
+            <form class="form1">
+                <label>Quantity</label>
+                <input  id="quantity" type="text" placeholder="example: 90" required="required">
+                <label>Goal</label>
+			    <input  id="goal" type="text" placeholder="example: 100" required="required">
+                <input id="add_button"  class="btn" onClick="create()" type="button" value="update">
+            </form>
+            <div class="error_div" id="error_div">
+                <p id="error_msg">there was an error: </p>
+            </div>
+            <div class="progressbar_div">
+                <h3>Progress bar</h3>
+                <p>You can see your progress in the bar below</p>
+                <div class="progressBar" id="id_progressBar">
+                    <div class="progressBarFill" id="id_progres">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+</body>
+</html>
